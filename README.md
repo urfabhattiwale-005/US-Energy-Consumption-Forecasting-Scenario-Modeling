@@ -67,25 +67,17 @@ Captures seasonality and long-term trends
 Provides interpretable forecasts
 
 Scenario-Based Modeling
-
 Baseline Forecast
-
 High Demand (+10%)
-
 Low Demand (-10%)
-
 Helps simulate real-world variations in energy consumption.
 
 --> Results & Insights
 
 Consumption shows a stable trend with minor fluctuations
-
 Seasonal patterns observed across months
-
 ARIMA provides reliable short-term forecasts
-
 Prophet captures long-term trend and seasonality effectively
-
 Scenario modeling helps in demand planning
 
 
@@ -99,9 +91,12 @@ Scenario modeling helps in demand planning
 │   └── final_report.pdf
 └── README.md
 
+
 Conclusion
 
 This project demonstrates the use of time series analysis and forecasting techniques to derive meaningful insights from energy consumption data and support future planning.
+
+
 Author
 
 Urfa Ilyas Bhattiwale
