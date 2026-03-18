@@ -2,71 +2,40 @@
 Time series analysis project on electricity consumption data using Python. Includes data cleaning, EDA, trend and seasonal analysis, ARIMA and Prophet forecasting, and scenario-based modeling to simulate future demand variations. Provides insights for energy planning and decision-making.
 
 Objectives
-
-Analyze electricity consumption trends
-
-Identify seasonal patterns
-
-Build forecasting models (ARIMA & Prophet)
-
-Perform scenario-based analysis (high/low demand)
+-Analyze electricity consumption trends
+-Identify seasonal patterns
+-Build forecasting models (ARIMA & Prophet)
+-Perform scenario-based analysis (high/low demand)
 
 📂 Dataset
 
 Name: Household Power Consumption Dataset
-
 Source: Kaggle
 
 Features Used:
+Date, Time,Global Active Power,Voltage, Intensity,Sub-metering values
 
-Date, Time
+--> Tools & Technologies
+Python,Pandas,NumPy,Matplotlib & Seaborn,Statsmodels (ARIMA),Prophet
 
-Global Active Power
+--> Exploratory Data Analysis
 
-Voltage, Intensity
+Trend Analysis 📈:
+-Rolling Mean (12 months)
+-Year-wise Consumption
+-Monthly Seasonality
+-Distribution Analysis
 
-Sub-metering values
-
-Tools & Technologies
-
-Python 
-
-Pandas
-
-NumPy
-
-Matplotlib & Seaborn
-
-Statsmodels (ARIMA)
-
-Prophet
-
-Exploratory Data Analysis
-
-Trend Analysis 📈
-
-Rolling Mean (12 months)
-
-Year-wise Consumption
-
-Monthly Seasonality
-
-Distribution Analysis
-
-Models Used
+--> Models Used
 🔹 ARIMA
-
-Used for short-term forecasting
-
-Captures trend and temporal dependencies
+-Used for short-term forecasting
+-Captures trend and temporal dependencies
 
 🔹 Prophet
+-Captures seasonality and long-term trends
+-Provides interpretable forecasts
 
-Captures seasonality and long-term trends
-
-Provides interpretable forecasts
-
-Scenario-Based Modeling
+🔹Scenario-Based Modeling
 Baseline Forecast
 High Demand (+10%)
 Low Demand (-10%)
